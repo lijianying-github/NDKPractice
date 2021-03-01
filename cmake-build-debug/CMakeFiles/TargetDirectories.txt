@@ -1,0 +1,3 @@
+C:/Users/Android 11/Desktop/CPractice/cmake-build-debug/CMakeFiles/CPractice.dir
+C:/Users/Android 11/Desktop/CPractice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Android 11/Desktop/CPractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
