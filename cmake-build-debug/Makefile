@@ -142,32 +142,32 @@ CPractice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/build
 .PHONY : CPractice/fast
 
-Lesson2.obj: Lesson2.c.obj
+main.obj: main.c.obj
 
-.PHONY : Lesson2.obj
+.PHONY : main.obj
 
 # target to build an object file
-Lesson2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/Lesson2.c.obj
-.PHONY : Lesson2.c.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/main.c.obj
+.PHONY : main.c.obj
 
-Lesson2.i: Lesson2.c.i
+main.i: main.c.i
 
-.PHONY : Lesson2.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Lesson2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/Lesson2.c.i
-.PHONY : Lesson2.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/main.c.i
+.PHONY : main.c.i
 
-Lesson2.s: Lesson2.c.s
+main.s: main.c.s
 
-.PHONY : Lesson2.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Lesson2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/Lesson2.c.s
-.PHONY : Lesson2.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPractice.dir\build.make CMakeFiles/CPractice.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPractice
-	@echo ... Lesson2.obj
-	@echo ... Lesson2.i
-	@echo ... Lesson2.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

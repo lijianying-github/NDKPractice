@@ -59,7 +59,7 @@ void t2Array() {
 
     printf("\narray point search==\n");
     for (index = 0; index < arrayLength; ++index) {
-        printf("array[%d]==%d  ", index, *(array + index));
+        printf("array[%d]==%d  addr=%p", index, *(array + index),array+index);
     }
 
     printf("\nemptyArray init ==\n");

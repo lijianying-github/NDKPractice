@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPractice.dir/Lesson2.c.obj"
+  "CMakeFiles/CPractice.dir/main.c.obj"
   "CPractice.exe"
   "CPractice.exe.manifest"
   "CPractice.pdb"
